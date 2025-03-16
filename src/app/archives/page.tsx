@@ -30,8 +30,8 @@ const Archives = () => {
                 <div className={styles.flexContainer}>
                     <h2>Document Historique</h2>
 
-                    <p>Le document fondateur de France souveraine est le document officiel qui a été signé par les membres fondateurs de France souveraine. Ce document est la base de la constitution de France souveraine.</p>
-                    <p>Vous pouvez consulter le document historique de France souveraine en cliquant sur le lien suivant : <a href="https://www.france-souveraine.fr/assets/proclamation-et-ordonnance.pdf">Proclamation et Ordonnance</a></p>
+                    <p className={styles.p}>Le document fondateur de France souveraine est le document officiel qui a été signé par les membres fondateurs de France souveraine. Ce document est la base de la constitution de France souveraine.</p>
+                    <p className={styles.p}>Vous pouvez consulter le document historique de France souveraine en cliquant sur le lien suivant : <a href="https://www.france-souveraine.fr/assets/proclamation-et-ordonnance.pdf">Proclamation et Ordonnance</a></p>
                     <Image src="/assets/Proclamation et Ordonnance1.jpg" alt="Proclamation et Ordonnance" width={800} height={1200} />
                     <Image src="/assets/b.jpg" alt="Proclamation et Ordonnance" width={800} height={1200} />
                     <Image src="/assets/c.jpg" alt="Proclamation et Ordonnance" width={800} height={1200} />

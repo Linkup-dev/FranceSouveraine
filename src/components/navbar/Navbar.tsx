@@ -39,16 +39,17 @@ const Navbar = () => {
                 <div className={styles.fullscreenMenu}>
                     <div className={styles.closeButton} onClick={toggleMenu}>×</div>
                     <ul className={styles.menuLinks}>
-                        <li><a href="#home" onClick={toggleMenu}>Acceuil</a></li>
-                        <li><a href="#services" onClick={toggleMenu}>Archives</a></li>
+                        <li><Link href={"/"}>Acceuil</Link></li>
+                        <li><Link href={"/archives"}>Archives</Link></li>
                         <li className={styles.dropdown}>
                             <a href="#journal" onClick={toggleDropdown}>Journal Officiel</a>
                             {isDropdownOpen && (
                                 <ul className={styles.dropdownMenu}>
-                                    <li><a href="#nomination" onClick={toggleMenu}>Nominations</a></li>
+                                    <li><a href="#nomination">Nominations</a></li>
                                 </ul>
                             )}
                         </li>
+
                     </ul>
                 </div>
             )}
