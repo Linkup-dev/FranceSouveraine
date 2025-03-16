@@ -9,6 +9,7 @@ export default function Home() {
         <Navbar />
         <div className={styles.hero}>
 
+
           <div className={styles.content}>
             <h1>France Souveraine : Document Fondateur</h1>
             <p className={styles.p}>Prenez connaissance des documents officiels de France souveraine</p>
