@@ -11,8 +11,8 @@ export default function Home() {
 
 
           <div className={styles.content}>
-            <h1>France Souveraine : Document Fondateur</h1>
-            <p className={styles.p}>Prenez connaissance des documents officiels de France souveraine</p>
+            <h1>La France Souveraine : Document Fondateur</h1>
+            <p className={styles.p}>Prenez connaissance des documents officiels de La France souveraine</p>
           </div>
         </div>
       </header>
@@ -20,7 +20,7 @@ export default function Home() {
         <div className={styles.flexContainer}>
           <h2>Document Fondateur</h2>
 
-          <p>Le document fondateur de France souveraine est le document officiel qui a été signé par les membres fondateurs de France souveraine. Ce document est la base de la constitution de France souveraine.</p>
+          <p>Le document fondateur de La France souveraine est le document officiel qui a été signé par les membres fondateurs de La France souveraine. Ce document est la base de la constitution de La France souveraine.</p>
         </div>
         <iframe className={styles.pdf} src={"https://www.france-souveraine.fr/assets/proclamation-et-ordonnance.pdf"} width="100%" height="600px"></iframe>
       </main>
