@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import styles from './Navbar.module.css';
+import Link from 'next/link';
 
 const Navbar = () => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -18,8 +19,8 @@ const Navbar = () => {
         <nav className={styles.navbar}>
             <div className={styles.logo}>France Souveraine</div>
             <ul className={styles.navLinks}>
-                <li><a href="#home">Acceuil</a></li>
-                <li><a href="#services">Archives</a></li>
+                <li><Link href={"/"}>Acceuil</Link></li>
+                <li><Link href={"/archives"}>Archives</Link></li>
                 <li className={styles.dropdown}>
                     <a href="#journal" onClick={toggleDropdown}>Journal Officiel</a>
                     {isDropdownOpen && (
