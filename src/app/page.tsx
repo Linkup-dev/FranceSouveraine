@@ -21,7 +21,7 @@ export default function Home() {
 
           <p>Le document fondateur de France souveraine est le document officiel qui a été signé par les membres fondateurs de France souveraine. Ce document est la base de la constitution de France souveraine.</p>
         </div>
-        <iframe className={styles.pdf} src={"http://localhost:3000/assets/proclamation-et-ordonnance.pdf"} width="100%" height="600px"></iframe>
+        <iframe className={styles.pdf} src={"https://www.france-souveraine.fr/assets/proclamation-et-ordonnance.pdf"} width="100%" height="600px"></iframe>
       </main>
     </div>
   );
