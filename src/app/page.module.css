@@ -4,7 +4,7 @@
 	background-color: white;
 }
 .hero {
-	height: 50vh;
+	height: 100vh;
 	padding-top: 50px;
 	color: white;
 	background: url("https://images.pexels.com/photos/224756/pexels-photo-224756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
@@ -19,6 +19,7 @@
 		flex-direction: column;
 		height: 100%;
 		width: 100%;
+		color: white;
 	}
 }
 .hr {
@@ -41,9 +42,12 @@
 	.p {
 		padding: 1rem;
 		max-width: 800px;
+		color: white;
+		font-weight: bold;
 	}
 }
 .downloadButton {
+	outline: none;
 	background-color: #007bff;
 	color: white;
 	padding: 0.5rem 1rem;
